@@ -1,0 +1,36 @@
+
+.SearchBox {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: rgba(255, 255, 255, 0);
+}
+.inputBox {
+    height: 55px;
+    border-radius: 5px;
+    /* color: #626262;
+    background: #ebfffc; */
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+
+.SearchBox button img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+} 
+.form-container {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin-left: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

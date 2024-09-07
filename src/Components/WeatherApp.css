@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:ital,wght@0,100..900;1,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.parentContainer {
+    text-align: center;
+    place-self: center;
+    padding: 10px;
+    border-radius: 10px;
+    /* background-image: linear-gradient(45deg, #2f4680, #aa8ee9); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    /* outline: 2px ridge rgba(170, 50, 220, .7);
+    border-radius: 2rem; */
+}
+.weather {
+    min-height: 100vh;
+    display: grid;
+    background: #e2d4ff;
+    padding-bottom: 250px;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+.weather h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    box-sizing:content-box;
+    text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.1),
+               3px 4px 4px rgba(179, 147, 211, 0.15),
+               4px 6px 4px rgba(179, 147, 211, 0.2),
+               5px 8px 4px rgba(179, 147, 211, 0.25);
+}
+
+.background-sunny {
+    background-image: url('../assets/photo/sunny.jpeg');
+}  
+.background-rain {
+    background-image: url('../assets/photo/raingif.gif');
+} 
+.background-cloudy {
+    background-image: url('../assets/photo/cloudy.jpg');
+} 
+.background-clear-night {
+    background-image: url('../assets/photo/clear_night.jpeg');
+}
+.background-fc-day {
+    background-image: url('../assets/photo/fc_day.jpg');
+}
+.background-fc-night {
+    background-image: url('../assets/photo/fc_night.jpg');
+}
+.background-mist-day {
+    background-image: url('../assets/photo/mist_d.jpg');
+}
+.background-mist-night {
+    background-image: url('../assets/photo/mist_n.png');
+}
+.background-shower-rain {
+    background-image: url('../assets/photo/shower_rain.jpeg');
+}
+.background-snow {
+    background-image: url('../assets/photo/snow.jpeg');
+}
+.background-storm {
+    background-image: url('../assets/photo/storm.jpg');
+}
+.background-broken-clouds-day {
+    background-image: url('../assets/photo/broken_c_d.jpeg');
+}
+.background-broken-clouds-night {
+    background-image: url('../assets/photo/broken_c_n.jpg');
+}
+.background-default {
+    background-image: url('../assets/weather.jpg');
+}

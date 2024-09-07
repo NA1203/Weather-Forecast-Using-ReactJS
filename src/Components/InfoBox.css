@@ -1,0 +1,29 @@
+.cardContainer {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.InfoBox {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Adds space between sections */
+    padding: 5px; /* Adds padding around the whole InfoBox */
+    height: auto;
+    width: auto;
+}
+.grid-container {
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    padding: 0px; /* Adds padding inside each card */
+    border: none;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    /* Responsive styles */
+    .InfoBox {
+        padding: 0px; /* Adjust padding for smaller screens */
+    }
+}
